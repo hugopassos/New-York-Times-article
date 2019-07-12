@@ -1,0 +1,15 @@
+.container{
+  width: 70%;
+	margin: 0 auto;
+  text-align: center;
+}
+
+#main-title{
+  padding-top: 25px;
+  font-size: 24px;
+  text-align: left;
+}
+
+*{
+  border: 1px solid red;
+}
