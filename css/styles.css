@@ -20,22 +20,19 @@ p{
 
 }
 
-a[href="https://www.youtube.com/watch?v=ZJYc9YmKIO8&amp=&feature=youtu.be"]{
-  color: #96b3e0;
-  text-decoration-color: #96b3e0;
-}
 a[href="https://www.nytimes.com/by/dennis-overbye"]{
   color: black;
   text-decoration-color: #dadce0;
 }
 
-
-
 a:hover{
   text-decoration: none;
 }
 
-
+iframe{
+  width: 600px;
+  border: none;
+}
 
 #main-title{
   padding-top: 25px;
@@ -112,6 +109,10 @@ a:hover{
   text-align: left;
 }
 
+.body-link{
+  color: #96b3e0;
+  text-decoration-color: #96b3e0;
+}
 
 @media (max-width: 1300px) {
   p{
