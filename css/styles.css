@@ -1,12 +1,22 @@
 /** {
    border: 1px solid red !important;
 }*/
-
-.container{
+header p{
+  padding-top: 7px;
+  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  color: #666;
+  font-size: 14px;
+  line-height: 1.3em;
+  text-align: justify;
   width: 70%;
-	margin: 0 auto;
 }
 
+p{
+  font-size: 24px;
+  width: 50%;
+  display: inline-block;
+  text-align: left;
+}
 #main-title{
   padding-top: 25px;
   font-size: 24px;
@@ -19,11 +29,20 @@
   font-size: 30px;
   line-height: 1.5em;
 }
+.container{
+  width: 70%;
+	margin: 0 auto;
+}
 
-p{
-  padding-top: 7px;
-  font-family: nyt-imperial,georgia,'times new roman',times,serif;
-  color: #666;
-  font-size: 14px;
-  line-height: 1.3em;
+.center{
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  p{
+    width: 100%;    
+  }
+  header p{
+    width: 100%;
+  }
 }
