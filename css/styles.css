@@ -7,15 +7,16 @@ header p{
   color: #666;
   font-size: 14px;
   text-align: justify;
-  width: 70%;
+  width: 900px;
 }
 
 p{
   font-size: 24px;
-  width: 50%;
+  width: 600px;
   display: inline-block;
   text-align: left;
   line-height: 1.35em;
+  color: #3a3a3b;
 
 }
 
@@ -54,19 +55,41 @@ a:hover{
 }
 
 #date-icons{
-  text-align: left;
   display: inline-block;
-  width: 50%;
-}
+  width: 600px;
 
+}
+#f-gallery{
+  width: 100%;
+  text-align: left;
+  line-height: 1.2em;
+}
+#ga-title{
+  font-weight: bold;
+  font-size: 24px;
+}
 #date{
   font-size: 0.875rem;
   font-family: nyt-franklin,helvetica,arial,sans-serif;
   vertical-align: middle;
-}
+  padding-top: 7px;
+  float: left;
 
+}
+#ga-paragraph{
+  color: #3a3a3b;
+}
+.gallery{
+  width: 100%;
+  background: red;
+
+}
+.myTable{
+  width: 100%;
+}
 .icons{
   float: right;
+
 }
 
 .icons-space{
@@ -76,6 +99,7 @@ a:hover{
 .container{
   width: 70%;
 	margin: 0 auto;
+
 }
 
 .center{
@@ -87,15 +111,16 @@ a:hover{
   display: inline-block;
   text-align: left;
 }
-.gallery{
 
-}
 
-@media (max-width: 1000px) {
+@media (max-width: 1300px) {
   p{
     width: 100%;
   }
   header p{
     width: 100%;
+  }
+  #date-icons{
+      width: 100%;
   }
 }
