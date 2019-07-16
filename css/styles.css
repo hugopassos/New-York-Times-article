@@ -57,7 +57,7 @@ iframe{
 
 }
 #f-gallery{
-  width: 100%;
+  width: 96%;
   text-align: left;
   line-height: 1.2em;
 }
@@ -84,43 +84,43 @@ iframe{
 }
 
 .snippet-one{
-  top: 200px;
-  left: 0;
+  top: 210px;
+  left: 20px;
 }
 
 .snippet-two{
-  top: 200px;
-  left: 245px;
+  top: 210px;
+  left: 265px;
 }
 
 .snippet-three{
-  top: 200px;
-  left: 490px;
+  top: 210px;
+  left: 510px;
 }
 
 .snippet-four{
-  top: 200px;
-  left: 735px;
+  top: 210px;
+  left: 755px;
 }
 
 .snippet-five{
-  top: 480px;
-  left: 0;
+  top: 500px;
+  left: 20px;
 }
 
 .snippet-six{
-  top: 480px;
-  left: 245px;
+  top: 500px;
+  left: 265px;
 }
 
 .snippet-seven{
-  top: 480px;
-  left: 490px;
+  top: 500px;
+  left: 510px;
 }
 
 .snippet-eight{
-  top: 480px;
-  left: 735px;
+  top: 500px;
+  left: 755px;
 }
 
 .middle-img{
@@ -128,8 +128,9 @@ iframe{
 }
 
 .gallery{
-  width: 100%;
+  width: 1000px;
   position: relative;
+  display: inline-block;
 }
 
 .icons{
@@ -148,6 +149,7 @@ iframe{
 
 .center{
   text-align: center;
+
 }
 .right{
   text-align: right;
@@ -169,16 +171,13 @@ iframe{
   .container{
     width: 950px;
   }
+
 }
 
 @media (max-width: 1015px) {
   header p{
     padding-left: 2%;
     width: 90%;
-  }
-
-  #back-img{
-    width: 700px;
   }
 
   #f-gallery{
