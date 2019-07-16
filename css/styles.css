@@ -90,17 +90,17 @@ iframe{
 
 .snippet-two{
   top: 210px;
-  left: 265px;
+  left: 275px;
 }
 
 .snippet-three{
   top: 210px;
-  left: 510px;
+  left: 520px;
 }
 
 .snippet-four{
   top: 210px;
-  left: 755px;
+  left: 765px;
 }
 
 .snippet-five{
@@ -110,17 +110,17 @@ iframe{
 
 .snippet-six{
   top: 500px;
-  left: 265px;
+  left: 275px;
 }
 
 .snippet-seven{
   top: 500px;
-  left: 510px;
+  left: 520px;
 }
 
 .snippet-eight{
   top: 500px;
-  left: 755px;
+  left: 765px;
 }
 
 .middle-img{
@@ -179,6 +179,7 @@ iframe{
 }
 
 @media (max-width: 1000px) {
+
   .middle-img{
     display: none;
   }
@@ -192,6 +193,7 @@ iframe{
     position: absolute;
     width: 175px;
     font-size: 14px;
+    padding-left: 2%;
   }
 
   .snippet-one{
