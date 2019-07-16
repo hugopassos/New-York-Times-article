@@ -173,6 +173,13 @@ iframe{
   }
 
 }
+@media (max-width: 1000px) {
+  .middle-img{
+    width: 70%;
+    height: 600px;
+    display:block;
+  }
+}
 
 @media (max-width: 1015px) {
   header p{
