@@ -167,7 +167,7 @@ iframe{
 }
 
 .body-link{
-  color: #96b3e0;
+  color: #326891;
   text-decoration-color: #96b3e0;
 }
 
@@ -235,6 +235,11 @@ iframe{
     top: 500px;
     left: 570px;
   }
+}
+.line{
+  width: 65px;
+  color: #d2d2d6;
+  opacity: 0.9;
 }
 
 @media (max-width: 1015px) {
