@@ -37,8 +37,6 @@ iframe{
 #back-img{
   background-image: URL("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png");
   background-repeat: no-repeat;
-  width: 100%;
-  height: 1000px;
 }
 #main-title{
   padding-top: 25px;
