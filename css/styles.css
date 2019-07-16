@@ -7,7 +7,7 @@ header p{
   color: #666;
   font-size: 14px;
   text-align: justify;
-  width: 900px;
+  width: 830px;
 }
 
 p{
@@ -17,7 +17,6 @@ p{
   text-align: left;
   line-height: 1.35em;
   color: #3a3a3b;
-
 }
 
 a[href="https://www.nytimes.com/by/dennis-overbye"]{
@@ -54,6 +53,7 @@ iframe{
 #date-icons{
   display: inline-block;
   width: 600px;
+
 
 }
 #f-gallery{
@@ -94,9 +94,9 @@ iframe{
 }
 
 .container{
-  width: 70%;
+  width: 1180px;
 	margin: 0 auto;
-
+  position: relative;
 }
 
 .center{
@@ -112,6 +112,23 @@ iframe{
 .body-link{
   color: #96b3e0;
   text-decoration-color: #96b3e0;
+}
+
+@media (max-width: 1420px) {
+  .container{
+    width: 950px;
+  }
+}
+
+@media (max-width: 1420px) {
+  .container{
+    width: 950px;
+  }
+}
+@media (max-width: 1015px) {
+  .container{
+    width: 100%;
+  }
 }
 
 @media (max-width: 1300px) {
