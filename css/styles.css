@@ -34,10 +34,6 @@ iframe{
   border: none;
 }
 
-#back-img{
-  background-image: URL("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png");
-  background-repeat: no-repeat;
-}
 #main-title{
   padding-top: 25px;
   font-size: 24px;
@@ -80,9 +76,60 @@ iframe{
 #ga-paragraph{
   color: #3a3a3b;
 }
+
+.snippet{
+  position: absolute;
+  width: 230px;
+  font-size: 14px;
+}
+
+.snippet-one{
+  top: 200px;
+  left: 0;
+}
+
+.snippet-two{
+  top: 200px;
+  left: 245px;
+}
+
+.snippet-three{
+  top: 200px;
+  left: 490px;
+}
+
+.snippet-four{
+  top: 200px;
+  left: 735px;
+}
+
+.snippet-five{
+  top: 480px;
+  left: 0;
+}
+
+.snippet-six{
+  top: 480px;
+  left: 245px;
+}
+
+.snippet-seven{
+  top: 480px;
+  left: 490px;
+}
+
+.snippet-eight{
+  top: 480px;
+  left: 735px;
+}
+
+.middle-img{
+  width: 100%;
+}
+
 .gallery{
   width: 100%;
-
+  position: relative;
 }
 
 .icons{
@@ -118,7 +165,6 @@ iframe{
   text-decoration-color: #96b3e0;
 }
 
-
 @media (max-width: 1420px) {
   .container{
     width: 950px;
@@ -126,13 +172,25 @@ iframe{
 }
 
 @media (max-width: 1015px) {
-  .container{
-    width: 100%;
-  }
-
   header p{
     padding-left: 2%;
     width: 90%;
+  }
+
+  #back-img{
+    width: 700px;
+  }
+
+  #f-gallery{
+    width: 96%;
+  }
+
+  .gallery{
+    padding-left: 2%;
+  }
+
+  .container{
+    width: 100%;
   }
 }
 
