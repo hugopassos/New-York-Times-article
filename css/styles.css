@@ -157,11 +157,16 @@ iframe{
 }
 .right{
   text-align: right;
-
 }
+
+.left{
+  text-align: left;
+  margin: 0 auto;
+  width: 600px;
+}
+
 .title{
   font-size: 24px;
-  width: 50%;
   display: inline-block;
   text-align: left;
 }
