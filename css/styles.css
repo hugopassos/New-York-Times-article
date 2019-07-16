@@ -127,6 +127,10 @@ iframe{
   width: 100%;
 }
 
+.middle-img-smaller{
+  display: none;
+}
+
 .gallery{
   width: 1000px;
   position: relative;
@@ -173,11 +177,61 @@ iframe{
   }
 
 }
+
 @media (max-width: 1000px) {
   .middle-img{
-    width: 70%;
-    height: 600px;
-    display:block;
+    display: none;
+  }
+
+  .middle-img-smaller{
+    display: block;
+    width: 46em;
+  }
+
+  .snippet{
+    position: absolute;
+    width: 175px;
+    font-size: 14px;
+  }
+
+  .snippet-one{
+    top: 190px;
+    left: 0px;
+  }
+
+  .snippet-two{
+    top: 190px;
+    left: 190px;
+  }
+
+  .snippet-three{
+    top: 190px;
+    left: 380px;
+  }
+
+  .snippet-four{
+    top: 190px;
+    left: 570px;
+  }
+
+  .snippet-five{
+    top: 500px;
+    left: 0px;
+  }
+
+  .snippet-six{
+    top: 500px;
+    left: 190px;
+  }
+
+  .snippet-seven{
+    top: 500px;
+    left: 380px;
+  }
+
+  .snippet-eight{
+    top: 500px;
+    left: 570px;
   }
 }
 
