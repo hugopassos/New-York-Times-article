@@ -1,0 +1,281 @@
+/** {
+   border: 1px solid red !important;
+}*/
+header p{
+  padding-top: 7px;
+  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  color: #666;
+  font-size: 14px;
+  text-align: justify;
+  width: 830px;
+  padding-left: 0;
+}
+
+p{
+  font-size: 22px;
+  width: 600px;
+  display: inline-block;
+  text-align: left;
+  line-height: 1.35em;
+  color: #3a3a3b;
+}
+
+a[href="https://www.nytimes.com/by/dennis-overbye"]{
+  color: black;
+  text-decoration-color: #dadce0;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+iframe{
+  width: 600px;
+  border: none;
+}
+
+#main-title{
+  padding-top: 25px;
+  font-size: 24px;
+  padding-right: 40%;
+  font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+  font-weight: bold;
+  font-style: italic;
+  color: #121212;
+  font-size: 30px;
+  line-height: 1.5em;
+}
+
+#author{
+  font-weight: bold;
+}
+
+#date-icons{
+  display: inline-block;
+  width: 600px;
+
+
+}
+#f-gallery{
+  width: 96%;
+  text-align: left;
+  line-height: 1.2em;
+}
+#ga-title{
+  font-weight: bold;
+  font-size: 24px;
+}
+#date{
+  font-size: 0.875rem;
+  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  vertical-align: middle;
+  padding-top: 7px;
+  float: left;
+
+}
+#ga-paragraph{
+  color: #3a3a3b;
+}
+
+.snippet{
+  position: absolute;
+  width: 230px;
+  font-size: 14px;
+}
+
+.snippet-one{
+  top: 210px;
+  left: 20px;
+}
+
+.snippet-two{
+  top: 210px;
+  left: 275px;
+}
+
+.snippet-three{
+  top: 210px;
+  left: 520px;
+}
+
+.snippet-four{
+  top: 210px;
+  left: 765px;
+}
+
+.snippet-five{
+  top: 500px;
+  left: 20px;
+}
+
+.snippet-six{
+  top: 500px;
+  left: 275px;
+}
+
+.snippet-seven{
+  top: 500px;
+  left: 520px;
+}
+
+.snippet-eight{
+  top: 500px;
+  left: 765px;
+}
+
+.middle-img{
+  width: 100%;
+}
+
+.middle-img-smaller{
+  display: none;
+}
+
+.gallery{
+  width: 1000px;
+  position: relative;
+  display: inline-block;
+}
+
+.icons{
+  float: right;
+
+}
+
+.icons-space{
+  margin-left: 8px;
+}
+
+.container{
+  width: 1180px;
+	margin: 0 auto;
+}
+
+.center{
+  text-align: center;
+
+}
+.right{
+  text-align: right;
+}
+
+.left{
+  text-align: left;
+  margin: 0 auto;
+  width: 600px;
+}
+
+.title{
+  font-size: 24px;
+  display: inline-block;
+  text-align: left;
+}
+
+.body-link{
+  color: #326891;
+  text-decoration-color: #96b3e0;
+}
+
+@media (max-width: 1420px) {
+  .container{
+    width: 950px;
+  }
+
+}
+
+@media (max-width: 1000px) {
+
+  .middle-img{
+    display: none;
+  }
+
+  .middle-img-smaller{
+    display: block;
+    width: 46em;
+  }
+
+  .snippet{
+    position: absolute;
+    width: 175px;
+    font-size: 14px;
+    padding-left: 2%;
+  }
+
+  .snippet-one{
+    top: 190px;
+    left: 0px;
+  }
+
+  .snippet-two{
+    top: 190px;
+    left: 190px;
+  }
+
+  .snippet-three{
+    top: 190px;
+    left: 380px;
+  }
+
+  .snippet-four{
+    top: 190px;
+    left: 570px;
+  }
+
+  .snippet-five{
+    top: 500px;
+    left: 0px;
+  }
+
+  .snippet-six{
+    top: 500px;
+    left: 190px;
+  }
+
+  .snippet-seven{
+    top: 500px;
+    left: 380px;
+  }
+
+  .snippet-eight{
+    top: 500px;
+    left: 570px;
+  }
+}
+.line{
+  width: 65px;
+  color: #d2d2d6;
+  opacity: 0.9;
+}
+
+@media (max-width: 1015px) {
+  header p{
+    padding-left: 2%;
+    width: 90%;
+  }
+
+  #f-gallery{
+    width: 96%;
+  }
+
+  .gallery{
+    padding-left: 2%;
+  }
+
+  .container{
+    width: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+  p{
+    width: 96%;
+    padding-left: 2%;
+  }
+  #date-icons{
+    padding-left: 2%;
+    width: 96%;
+  }
+  #main-title{
+    font-size: 22px;
+  }
+}
