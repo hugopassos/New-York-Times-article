@@ -34,8 +34,19 @@ iframe{
   border: none;
 }
 
+nav{
+  width: 100%;
+  background-color: white;
+  height: 45px;
+  position: fixed;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.30);
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.30);
+
+
+}
+
 #main-title{
-  padding-top: 25px;
+  padding-top: 75px;
   font-size: 24px;
   padding-right: 40%;
   font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
@@ -76,6 +87,7 @@ iframe{
 #ga-paragraph{
   color: #3a3a3b;
 }
+
 
 .snippet{
   position: absolute;
