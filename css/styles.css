@@ -55,9 +55,9 @@ nav{
 }
 
 #main-title{
+  width: 390px;
   padding-top: 75px;
-  font-size: 24px;
-  padding-right: 40%;
+  margin-right: 50%;
   font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
   font-weight: bold;
   font-style: italic;
@@ -241,8 +241,11 @@ nav{
 @media (max-width: 1420px) {
   .container{
     width: 950px;
+    padding: 0;
   }
-
+  #main-title{
+    margin-right: 40%;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -259,7 +262,7 @@ nav{
   .snippet{
     position: absolute;
     width: 175px;
-    font-size: 14px;
+    font-size: 12px;
     padding-left: 2%;
   }
 
@@ -337,10 +340,25 @@ nav{
     padding-left: 2%;
     width: 96%;
   }
-  #main-title{
-    font-size: 22px;
-  }
+
   .delete{
     display: none;
   }
+}
+
+@media (max-width: 735px) {
+    #main-title{
+      width: 100%;
+      margin-right: 0;
+      font-size: 24px;
+      text-align: center;
+    }
+}
+@media (max-width: 630px) {
+    #main-title{
+      width: 310px;
+      text-align: left;
+      margin-right: 45%;
+
+    }
 }
