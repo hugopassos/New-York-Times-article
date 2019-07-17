@@ -41,8 +41,7 @@ nav{
   position: fixed;
   -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.30);
   box-shadow: 0 1px 1px 0 rgba(0,0,0,.30);
-
-
+  z-index: 10;
 }
 
 #main-title{
@@ -88,6 +87,28 @@ nav{
   color: #3a3a3b;
 }
 
+.nav-button{
+  position: absolute;
+  top: 5px;
+  right: 20px;
+}
+
+.button{
+  height: 35px;
+  margin-right: 5px;
+  background-color: #627ba3;
+  color: white;
+  font-weight: bold;
+  font-size: 11px;
+  border-radius: 4px;
+  border: solid 1px #2f4261;
+  padding: 0 12px;
+}
+
+.button:hover{
+  background-color: #415980;
+  transition-duration: 1s;
+}
 
 .snippet{
   position: absolute;
@@ -289,5 +310,8 @@ nav{
   }
   #main-title{
     font-size: 22px;
+  }
+  #button-sub{
+    display: none;
   }
 }
