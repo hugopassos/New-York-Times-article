@@ -12,12 +12,13 @@ header p{
 }
 
 p{
-  font-size: 22px;
+  font-size: 20px;
   width: 600px;
   display: inline-block;
   text-align: left;
   line-height: 1.35em;
-  color: #3a3a3b;
+  color: #353538;
+  font-family: nyt-imperial,georgia,'times new roman',times,serif;
 }
 a[href="https://www.nytimes.com/section/science/space"]{
   color: black;
@@ -30,6 +31,7 @@ a[href="https://www.nytimes.com/section/science/space"]:hover{
 }
 a[href="https://www.nytimes.com/by/dennis-overbye"]{
   color: black;
+  text-decoration: underline;
   text-decoration-color: #dadce0;
 }
 
@@ -62,10 +64,13 @@ nav{
   color: #121212;
   font-size: 30px;
   line-height: 1.5em;
+  display: inline-block;
+  text-align: left;
 }
 
 #author{
   font-weight: bold;
+  font-size: 14px;
 }
 
 #date-icons{
@@ -112,7 +117,7 @@ nav{
   color: white;
   font-weight: bold;
   font-size: 11px;
-  border-radius: 4px;
+  border-radius: 3px;
   border: solid 1px #2f4261;
   padding: 0 12px;
 }
@@ -124,6 +129,48 @@ nav{
 .button:hover{
   background-color: #415980;
   transition-duration: 1s;
+}
+
+.middle-img{
+  width: 100%;
+}
+
+.middle-img-smaller{
+  display: none;
+}
+
+.gallery{
+  width: 1000px;
+  position: relative;
+  display: inline-block;
+}
+
+.icons{
+  float: right;
+
+}
+
+.icons-space{
+  margin-left: 8px;
+}
+
+.container{
+  width: 1180px;
+	margin: 0 auto;
+}
+
+.center{
+  text-align: center;
+
+}
+.right{
+  text-align: right;
+}
+
+.left{
+  text-align: left;
+  margin: 0 auto;
+  width: 600px;
 }
 
 .snippet{
@@ -170,48 +217,6 @@ nav{
 .snippet-eight{
   top: 500px;
   left: 765px;
-}
-
-.middle-img{
-  width: 100%;
-}
-
-.middle-img-smaller{
-  display: none;
-}
-
-.gallery{
-  width: 1000px;
-  position: relative;
-  display: inline-block;
-}
-
-.icons{
-  float: right;
-
-}
-
-.icons-space{
-  margin-left: 8px;
-}
-
-.container{
-  width: 1180px;
-	margin: 0 auto;
-}
-
-.center{
-  text-align: center;
-
-}
-.right{
-  text-align: right;
-}
-
-.left{
-  text-align: left;
-  margin: 0 auto;
-  width: 600px;
 }
 
 .title{
