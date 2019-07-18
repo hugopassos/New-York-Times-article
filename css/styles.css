@@ -20,15 +20,9 @@ p{
   color: #353538;
   font-family: nyt-imperial,georgia,'times new roman',times,serif;
 }
-a[href="https://www.nytimes.com/section/science/space"]{
-  color: black;
-  text-decoration: none;
-}
-a[href="https://www.nytimes.com/section/science/space"]:hover{
-  text-decoration: underline;
-  color: black;
-  text-decoration-color: black;
-}
+
+
+
 a[href="https://www.nytimes.com/by/dennis-overbye"]{
   color: black;
   text-decoration: underline;
@@ -102,21 +96,63 @@ nav{
 
 #left-bottom{
   float: left;
-  width: 70%;
+  width: 75%;
   height: 300px;
 
 }
 #right-bottom{
   float: right;
-  width: 30%;
+  width: 25%;
   height: 300px;
 
 }
 #hr-bottom{
-  width: 90%;
+  width: 96%;
   border-color: black;
+  float: left;
+}
+.image-bottom-left{
+  width: 100%;
+  padding-right: 16px;
+}
+.image-bottom-center{
+  width: 100%;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+.image-bottom-right{
+  width: 100%;
+  padding-left: 16px;
+}
+.pBottom-left{
+  font-size: 16px;
+  text-align: left;
+  margin-top: 15px;
+}
+.pBottom-center{
+  margin-left: 8px;
+  text-align: left;
+  margin-top: 15px;
+}
+.pBottom-right{
+  margin-left: 16px;
+  text-align: left;
+  margin-top: 15px;
+}
+.aClass{
+  color: black;
+  text-decoration: none;
+}
+.aClass:hover{
+  text-decoration: underline;
+  color: black;
+  text-decoration-color: black;
 }
 
+.text-bottom-left{
+  float: left;
+  margin-bottom: 15px;
+}
 .snippet-big{
   font-family: nyt-imperial,georgia,'times new roman',times,serif;
   color: #666;
