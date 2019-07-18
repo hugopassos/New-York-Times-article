@@ -116,6 +116,9 @@ td{
   border-color: black;
   float: left;
 }
+.hr-bottom-right{
+  border-color: grey;
+}
 .image-bottom-left{
   width: 100%;
   padding-right: 16px;
