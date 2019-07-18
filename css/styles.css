@@ -48,6 +48,10 @@ nav{
   z-index: 10;
 }
 
+td{
+  width: 33%;
+}
+
 #main-title{
   width: 390px;
   padding-top: 75px;
@@ -128,16 +132,19 @@ nav{
   font-size: 16px;
   text-align: left;
   margin-top: 15px;
+  margin-bottom: 20px;
 }
 .pBottom-center{
   margin-left: 8px;
   text-align: left;
   margin-top: 15px;
+  margin-bottom: 20px;
 }
 .pBottom-right{
   margin-left: 16px;
   text-align: left;
   margin-top: 15px;
+  margin-bottom: 20px;
 }
 .aClass{
   color: black;
@@ -147,6 +154,21 @@ nav{
   text-decoration: underline;
   color: black;
   text-decoration-color: black;
+}
+
+.aClassBottom{
+  color: black;
+  text-decoration: none;
+}
+
+.aClassBottom:hover{
+  color: #5e6269;
+}
+
+.a-img-text{
+  width: 10px;
+  font-size: 10px;
+  background: red;
 }
 
 .text-bottom-left{
