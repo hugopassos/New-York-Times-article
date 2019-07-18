@@ -50,6 +50,7 @@ nav{
 
 td{
   width: 33%;
+  padding-bottom: 30px;
 }
 
 #main-title{
@@ -131,19 +132,29 @@ td{
 .pBottom-left{
   font-size: 16px;
   text-align: left;
-  margin-top: 15px;
+  margin-top: 20px;
   margin-bottom: 20px;
+}
+.div-text-bottom-left{
+  font-size: 12px;
+  float: left;
+}
+.div-text-bottom-center{
+  padding-left: 8px;
+}
+.div-text-bottom-right{
+  padding-left: 16px;
 }
 .pBottom-center{
   margin-left: 8px;
   text-align: left;
-  margin-top: 15px;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 .pBottom-right{
   margin-left: 16px;
   text-align: left;
-  margin-top: 15px;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 .aClass{
@@ -166,11 +177,20 @@ td{
 }
 
 .a-img-text{
-  width: 10px;
-  font-size: 10px;
-  background: red;
+  font-size: 9px;
+  float: right;
+  margin-top: 5px;
+  color: grey;
 }
-
+.a-img-text-left{
+  margin-right: 16px;
+}
+.a-img-text-center{
+  margin-right: 8px;
+}
+.a-img-text-right{
+  text-align: right;
+}
 .text-bottom-left{
   float: left;
   margin-bottom: 15px;
