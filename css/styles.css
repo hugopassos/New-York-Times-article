@@ -1,4 +1,4 @@
-/** {
+/**{
    border: 1px solid red !important;
 }*/
 header p{
@@ -21,7 +21,11 @@ p{
   font-family: nyt-imperial,georgia,'times new roman',times,serif;
 }
 
-
+footer{
+  background: yellow;
+  margin: 0 auto;
+  width: 1160px;
+}
 
 a[href="https://www.nytimes.com/by/dennis-overbye"]{
   color: black;
@@ -102,13 +106,10 @@ td{
 #left-bottom{
   float: left;
   width: 75%;
-  height: 300px;
 }
 #right-bottom{
   float: right;
   width: 25%;
-  height: 300px;
-
 }
 #hr-bottom{
   width: 96%;
@@ -209,6 +210,7 @@ td{
 }
 .a-img-text-left{
   margin-right: 16px;
+
 }
 .a-img-text-center{
   margin-right: 8px;
@@ -383,6 +385,9 @@ td{
     width: 950px;
     padding: 0;
   }
+  footer{
+    width: 950px;
+  }
   #main-title{
     margin-right: 40%;
   }
@@ -457,11 +462,16 @@ td{
     padding-left: 2%;
     width: 90%;
   }
-
+  footer{
+    width: 96%;
+  }
   #f-gallery{
     width: 96%;
   }
-
+  #div-container{
+    width:96%;
+    margin: 0 auto;
+  }
   .gallery{
     padding-left: 2%;
   }
