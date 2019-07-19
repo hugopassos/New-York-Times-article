@@ -27,16 +27,6 @@ footer{
   margin-bottom: 15px;
 }
 
-a[href="https://www.nytimes.com/by/dennis-overbye"]{
-  color: black;
-  text-decoration: underline;
-  text-decoration-color: #dadce0;
-}
-
-a:hover{
-  text-decoration: none;
-}
-
 iframe{
   width: 600px;
   border: none;
@@ -45,6 +35,16 @@ iframe{
 td{
   width: 33%;
   padding-bottom: 30px;
+}
+
+a[href="https://www.nytimes.com/by/dennis-overbye"]{
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: #dadce0;
+}
+
+a:hover{
+  text-decoration: none;
 }
 
 #main-nav{
@@ -87,18 +87,20 @@ td{
   text-align: left;
   line-height: 1.2em;
 }
+
 #ga-title{
   font-weight: bold;
   font-size: 24px;
 }
+
 #date{
   font-size: 0.875rem;
   font-family: nyt-franklin,helvetica,arial,sans-serif;
   vertical-align: middle;
   padding-top: 7px;
   float: left;
-
 }
+
 #ga-paragraph{
   color: #3a3a3b;
 }
@@ -107,11 +109,11 @@ td{
   float: left;
   width: 75%;
 }
+
 #right-bottom{
   float: right;
   width: 25%;
 }
-
 
 #nav-footer{
   margin: 0 auto;
@@ -122,17 +124,20 @@ td{
   line-height: 1.8em;
   margin-bottom: 7px;
 }
+
 .hr-bottom{
   width: 96%;
   border-color: black;
   float: left;
 }
+
 .lines{
   width: 100%;
   border-top: 1.3px solid grey;
   border-bottom: 0.7px solid grey;
   height: 3px;
 }
+
 .my-p-bottom-right{
   float: left;
   text-align: left;
@@ -145,51 +150,62 @@ td{
   float: left;
   margin-top: 0;
 }
+
 .image-bottom-left{
   width: 100%;
   padding-right: 16px;
 }
+
 .image-bottom-center{
   width: 100%;
   padding-right: 8px;
   padding-left: 8px;
 }
+
 .image-bottom-right{
   width: 100%;
   padding-left: 16px;
 }
+
 .div-text-bottom-left{
   font-size: 12px;
   float: left;
 }
+
 .div-text-bottom-center{
   padding-left: 8px;
 }
+
 .div-text-bottom-right{
   padding-left: 16px;
 }
+
 .pBottom-left{
   font-size: 16px;
   text-align: left;
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
 .pBottom-center{
   margin-left: 8px;
   text-align: left;
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
 .pBottom-right{
   margin-left: 16px;
   text-align: left;
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
 .aClass{
   color: black;
   text-decoration: none;
 }
+
 .aClass:hover{
   text-decoration: underline;
   color: black;
@@ -200,7 +216,7 @@ td{
   color: black;
   text-decoration: none;
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
-  font-weight: 500px;
+  font-weight: 500;
   line-height: 1.1em;
   font-size: 16px;
 }
@@ -451,16 +467,19 @@ td{
   text-align: center;
   font-size: 12px;
 }
+
 .aClassFooter{
   color: rgb(153, 153, 153);
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   padding-right: 10px;
 }
+
 .aClassFooter:hover{
   color: rgb(153, 153, 153);
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   text-decoration: underline;
 }
+
 .li-footer{
   display: inline;
 }
@@ -539,14 +558,17 @@ td{
     left: 570px;
   }
 }
+
 .line{
   width: 65px;
   color: #d2d2d6;
   opacity: 0.9;
 }
+
 .hr-nav-bottom{
   margin: 5px;
 }
+
 @media (max-width: 1015px) {
   header p{
     padding-left: 2%;
