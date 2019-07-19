@@ -1,7 +1,11 @@
+a:hover{
+  text-decoration: none;
+}
+
 footer{
   margin: 0 auto;
-  width: 1160px;
   margin-bottom: 15px;
+  width: 1160px;
 }
 
 header p{
@@ -32,10 +36,6 @@ p{
 td{
   width: 33%;
   padding-bottom: 30px;
-}
-
-a:hover{
-  text-decoration: none;
 }
 
 #main-nav{
