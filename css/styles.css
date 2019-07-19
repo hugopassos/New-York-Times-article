@@ -1,6 +1,19 @@
-/**{
-   border: 1px solid red !important;
-}*/
+a:hover{
+  text-decoration: none;
+}
+
+a[href="https://www.nytimes.com/by/dennis-overbye"]{
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: #dadce0;
+}
+
+footer{
+  margin: 0 auto;
+  width: 1160px;
+  margin-bottom: 15px;
+}
+
 header p{
   padding-top: 7px;
   font-family: nyt-imperial,georgia,'times new roman',times,serif;
@@ -9,6 +22,11 @@ header p{
   text-align: justify;
   width: 695px;
   padding-left: 0;
+}
+
+iframe{
+  width: 600px;
+  border: none;
 }
 
 p{
@@ -21,30 +39,9 @@ p{
   font-family: nyt-imperial,georgia,'times new roman',times,serif;
 }
 
-footer{
-  margin: 0 auto;
-  width: 1160px;
-  margin-bottom: 15px;
-}
-
-iframe{
-  width: 600px;
-  border: none;
-}
-
 td{
   width: 33%;
   padding-bottom: 30px;
-}
-
-a[href="https://www.nytimes.com/by/dennis-overbye"]{
-  color: black;
-  text-decoration: underline;
-  text-decoration-color: #dadce0;
-}
-
-a:hover{
-  text-decoration: none;
 }
 
 #main-nav{
