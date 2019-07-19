@@ -22,10 +22,10 @@ p{
 }
 
 footer{
-  background: yellow;
   margin: 0 auto;
   width: 1160px;
   height: 100px;
+  border-top:
 }
 
 a[href="https://www.nytimes.com/by/dennis-overbye"]{
@@ -118,15 +118,6 @@ td{
   float: left;
 }
 
-#hr-bottom-thick{
-  border-color: grey;
-  border: solid 2px;
-}
-
-#hr-bottom-thin{
-
-}
-
 #nav-footer{
   margin: 0 auto;
   width: 1150px;
@@ -134,7 +125,7 @@ td{
   height: 415px;
   font-size: 14px;
   line-height: 1.8em;
-  margin-bottom: 10px;
+  margin-bottom: 7px;
 }
 
 .lines{
@@ -403,7 +394,7 @@ td{
   position: absolute;
   top: 60px;
   left: 0;
-  width: 70%;
+  width: 80%;
   height: 355px;
   border-right: solid 1px #bdb9ae;
 }
@@ -412,16 +403,12 @@ td{
   position: absolute;
   top: 60px;
   right: 0;
-  width: 30%;
+  width: 20%;
 }
 
 .nav-cont-footer-right-padding{
   position: absolute;
   left: 13px;
-<<<<<<< HEAD
-=======
-
->>>>>>> 2afcdfca782bdb087da371120ce1f7516adb91cf
 }
 
 .nav-content-bottom{
@@ -450,14 +437,25 @@ td{
 .nav-content-bottom-fifth{
   left: 77%
 }
+
 .nav-content-bottom-title{
   font-weight: bold;
   padding-bottom: 5px;
 }
+
 .a-small{
   font-size: 11px;
   line-height: 1em;
 }
+
+.ul-footer{
+  text-align: center;
+}
+
+.li-footer{
+  display: inline;
+}
+
 @media (max-width: 1420px) {
   .container{
     width: 950px;
@@ -552,8 +550,11 @@ td{
     width: 96%;
   }
   #div-container{
-    width:96%;
+    width: 96%;
     margin: 0 auto;
+  }
+  #nav-footer{
+    width: 96%;
   }
   .gallery{
     padding-left: 2%;
