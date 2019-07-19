@@ -418,6 +418,10 @@ td{
 .nav-cont-footer-right-padding{
   position: absolute;
   left: 13px;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2afcdfca782bdb087da371120ce1f7516adb91cf
 }
 
 .nav-content-bottom{
@@ -533,7 +537,9 @@ td{
   color: #d2d2d6;
   opacity: 0.9;
 }
-
+.hr-nav-bottom{
+  margin: 5px;
+}
 @media (max-width: 1015px) {
   header p{
     padding-left: 2%;
