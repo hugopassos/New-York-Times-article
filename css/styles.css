@@ -25,6 +25,7 @@ footer{
   background: yellow;
   margin: 0 auto;
   width: 1160px;
+  height: 100px;
 }
 
 a[href="https://www.nytimes.com/by/dennis-overbye"]{
@@ -130,9 +131,10 @@ td{
   margin: 0 auto;
   width: 1150px;
   position: relative;
-  height: 300px;
+  height: 415px;
   font-size: 14px;
   line-height: 1.8em;
+  margin-bottom: 10px;
 }
 
 .lines{
@@ -402,7 +404,7 @@ td{
   top: 60px;
   left: 0;
   width: 70%;
-  height: 270px;
+  height: 355px;
   border-right: solid 1px #bdb9ae;
 }
 
@@ -416,13 +418,20 @@ td{
 .nav-cont-footer-right-padding{
   position: absolute;
   left: 13px;
-  
 }
 
 .nav-content-bottom{
   position: absolute;
   left: 0;
   top: 0;
+}
+
+.nav-menu-bottom-right-top{
+  line-height: 2em;
+}
+
+.nav-menu-bottom-right-bottom{
+  padding-top: 8%;
 }
 
 .nav-content-bottom-second{
@@ -440,8 +449,6 @@ td{
 .nav-content-bottom-title{
   font-weight: bold;
   padding-bottom: 5px;
-  line-height: 1em;
-  padding-bottom: 4px;
 }
 .a-small{
   font-size: 11px;
