@@ -132,8 +132,9 @@ td{
   position: relative;
   height: 300px;
   font-size: 14px;
-  line-height: 1.5em;
+  line-height: 1.8em;
 }
+
 .lines{
   width: 100%;
   border-top: 1.3px solid grey;
@@ -415,6 +416,7 @@ td{
 .nav-cont-footer-right-padding{
   position: absolute;
   left: 13px;
+  
 }
 
 .nav-content-bottom{
@@ -438,8 +440,13 @@ td{
 .nav-content-bottom-title{
   font-weight: bold;
   padding-bottom: 5px;
+  line-height: 1em;
+  padding-bottom: 4px;
 }
-
+.a-small{
+  font-size: 11px;
+  line-height: 1em;
+}
 @media (max-width: 1420px) {
   .container{
     width: 950px;
