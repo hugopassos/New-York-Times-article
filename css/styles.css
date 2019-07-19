@@ -3,18 +3,18 @@ text-decoration:none;
 }
 
 footer {
-width:1160px;
 margin:0 auto 15px;
+width:1160px;
 }
 
 header p {
-padding-top:7px;
-font-family:nyt-imperial,georgia,'times new roman',times,serif;
 color:#666;
+font-family:nyt-imperial,georgia,'times new roman',times,serif;
 font-size:15px;
+padding-left:0;
+padding-top:7px;
 text-align:justify;
 width:695px;
-padding-left:0;
 }
 
 iframe {
@@ -117,6 +117,11 @@ margin:0 auto 7px;
 color:#000;
 text-decoration:underline;
 text-decoration-color:#dadce0;
+}
+
+.a-author:hover {
+color:#000;
+text-decoration:none;
 }
 
 .hr-bottom {
