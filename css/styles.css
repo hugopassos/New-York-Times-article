@@ -111,11 +111,7 @@ td{
   float: right;
   width: 25%;
 }
-#hr-bottom{
-  width: 96%;
-  border-color: black;
-  float: left;
-}
+
 
 #nav-footer{
   margin: 0 auto;
@@ -126,7 +122,11 @@ td{
   line-height: 1.8em;
   margin-bottom: 7px;
 }
-
+.hr-bottom{
+  width: 96%;
+  border-color: black;
+  float: left;
+}
 .lines{
   width: 100%;
   border-top: 1.3px solid grey;
