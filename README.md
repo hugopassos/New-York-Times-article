@@ -8,3 +8,5 @@ CSS and HTML
 
 Hector Uzquiano https://github.com/Juakata
 Hugo Passos https://github.com/hugopassos
+
+Follow this link to see the Website: https://raw.githack.com/Juakata/New-York-Times-article/master/index.html
