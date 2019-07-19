@@ -128,11 +128,18 @@ td{
 
 #nav-footer{
   margin: 0 auto;
-  width: 96%;
+  width: 1150px;
   position: relative;
   height: 300px;
+  font-size: 14px;
+  line-height: 1.5em;
 }
-
+.lines{
+  width: 100%;
+  border-top: 1.3px solid grey;
+  border-bottom: 0.7px solid grey;
+  height: 3px;
+}
 .my-p-bottom-right{
   float: left;
   text-align: left;
@@ -298,6 +305,7 @@ td{
 .container{
   width: 1180px;
 	margin: 0 auto;
+
 }
 
 .center{
@@ -393,7 +401,8 @@ td{
   top: 60px;
   left: 0;
   width: 70%;
-  display: inline-block;
+  height: 200px;
+  border-right: solid 1px grey;
 }
 
 .nav-cont-footer-right{
@@ -410,17 +419,29 @@ td{
 }
 
 .nav-content-bottom-second{
-  left: 20%;
+  left: 17%;
 }
-
+.nav-content-bottom-third{
+  left: 37%;
+}
+.nav-content-bottom-fourth{
+  left: 57%
+}
+.nav-content-bottom-fifth{
+  left: 77%
+}
 .nav-content-bottom-title{
-
+  font-weight: bold;
+  padding-bottom: 5px;
 }
 
 @media (max-width: 1420px) {
   .container{
     width: 950px;
     padding: 0;
+  }
+  #nav-footer{
+    width: 950px;
   }
   footer{
     width: 950px;
