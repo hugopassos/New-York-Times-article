@@ -126,6 +126,13 @@ td{
 
 }
 
+#nav-footer{
+  margin: 0 auto;
+  width: 96%;
+  position: relative;
+  height: 300px;
+}
+
 .my-p-bottom-right{
   float: left;
   text-align: left;
@@ -380,6 +387,36 @@ td{
   font-weight: 600;
   font-size: 14px;
 }
+
+.nav-cont-footer-left{
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 70%;
+  display: inline-block;
+}
+
+.nav-cont-footer-right{
+  position: absolute;
+  top: 60px;
+  right: 0;
+  width: 30%;
+}
+
+.nav-content-bottom{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.nav-content-bottom-second{
+  left: 20%;
+}
+
+.nav-content-bottom-title{
+
+}
+
 @media (max-width: 1420px) {
   .container{
     width: 950px;
