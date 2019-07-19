@@ -401,8 +401,8 @@ td{
   top: 60px;
   left: 0;
   width: 70%;
-  height: 200px;
-  border-right: solid 1px grey;
+  height: 270px;
+  border-right: solid 1px #bdb9ae;
 }
 
 .nav-cont-footer-right{
@@ -410,6 +410,11 @@ td{
   top: 60px;
   right: 0;
   width: 30%;
+}
+
+.nav-cont-footer-right-padding{
+  position: absolute;
+  left: 13px;
 }
 
 .nav-content-bottom{
