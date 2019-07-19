@@ -2,12 +2,6 @@ a:hover{
   text-decoration: none;
 }
 
-a[href="https://www.nytimes.com/by/dennis-overbye"]{
-  color: black;
-  text-decoration: underline;
-  text-decoration-color: #dadce0;
-}
-
 footer{
   margin: 0 auto;
   width: 1160px;
@@ -77,7 +71,6 @@ td{
   display: inline-block;
   width: 600px;
 
-
 }
 #f-gallery{
   width: 96%;
@@ -120,6 +113,12 @@ td{
   font-size: 14px;
   line-height: 1.8em;
   margin-bottom: 7px;
+}
+
+.a-author{
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: #dadce0;
 }
 
 .hr-bottom{
