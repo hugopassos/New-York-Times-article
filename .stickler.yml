@@ -6,8 +6,6 @@ files:
     
 linters:
   # Configured linters
-  stylelint:
-        config: 'stylelintrc.json'
         
   phpcs:
         standard: 'PSR2'
