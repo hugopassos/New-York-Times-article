@@ -623,6 +623,15 @@ td{
     .snippet-small{
       font-size: 11px;
     }
+
+    .nav-cont-footer-left{
+      width: 100%;
+      font-size: 11px;
+    }
+
+    .nav-cont-footer-right{
+      width: 0%;
+    }
 }
 @media (max-width: 630px) {
     #main-title{
