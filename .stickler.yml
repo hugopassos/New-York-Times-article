@@ -4,6 +4,7 @@ files:
   ignore:
     - 'bower_components/*'
     
+
 linters:
   # Configured linters
         
