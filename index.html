@@ -4,23 +4,32 @@
   <head>
     <title>New York Time</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link type="text/css" rel="stylesheet" href="css/reset.css">
     <link type="text/css" rel="stylesheet" href="css/styles.css">
+
   </head>
   <body>
-    <nav id="nav">
-        <div class="nav-menu">
-
+    <nav id="main-nav">
+        <div class="nav-left">
+          <div class="nav-left-items"><button class="glyphicon glyphicon-menu-hamburger nav-left-button" aria-hidden="true"></button></div>
+          <div class="nav-left-items delete"><button class="glyphicon glyphicon-search nav-left-button" aria-hidden="true"></button></div>
+          <div class="nav-left-items delete"><a class="aClass" href="https://www.nytimes.com/section/science/space"><strong>SPACE & COSMOS</strong></a></div>
+        </div>
+        <div class="center"><a href="https://www.nytimes.com/"><img src="https://thegoldcenters.com/wp-content/uploads/2017/09/New-York-Times-Logo.png" width="250" alt="NYT"></a></div>
+        <div class="nav-button">
+          <button class="button delete" type="button" id="subscribe">SUBSCRIBE NOW</button>
+          <button class="button" type="button" id="login">LOG IN</button>
         </div>
     </nav>
     <header class="container">
-      <div class="container right"><div id="main-title">Space Ripples Reveal<br> Big Bang’s Smoking Gun</div></div><br>
-      <img src="https://static01.nyt.com/images/2014/03/18/science/space/18cosmos/18cosmos-superJumbo.jpg?quality=90&auto=webp" style="width:100%">
-      <p>Alan Guth was one of the first physicists to hypothesize the existence of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.<br>Rick Friedman for The New York Times</p>
+      <div class="container right"><div id="main-title">Space Ripples Reveal Big Bang’s Smoking Gun</div></div><br>
+      <img src="https://static01.nyt.com/images/2014/03/18/science/space/18cosmos/18cosmos-superJumbo.jpg?quality=90&auto=webp" alt="the guy" style="width:100%">
+      <p>Alan Guth was one of the first physicists to hypothesize the existence of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago. <span class="snippet-small">Rick Friedman for The New York Times</span></p>
     </header>
     <br><br>
     <main class="container center">
-      <p id="author">By <a href="https://www.nytimes.com/by/dennis-overbye">Dennis Overbye</a></p>
+      <p id="author">By <a class="a-author" href="https://www.nytimes.com/by/dennis-overbye">Dennis Overbye</a></p>
       <br><br>
       <div id="date-icons">
         <div id="date">March 17, 2014</div>
@@ -100,8 +109,8 @@
 
           Andrei Linde of Stanford, a prolific theorist who first described the most popular variant of inflation, known as chaotic inflation, in 1983, was about to go on vacation in the Caribbean last week when Chao-Lin Kuo, a Stanford colleague and a member of Dr. Kovac’s team, <a class="body-link" href="https://www.youtube.com/watch?v=ZlfIVEy_YOA" target="_blank">knocked on his door with a bottle of Champagne</a> to tell him the news.</p><br><br>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/ZlfIVEy_YOA" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <p style="font-size: 14px;">Stanford Professor Andrei Linde celebrates physics breakthrough</p><br><br>
-      <p style="font-size: 14px;">Video by StanfordUniversity</p><br><br>
+      <p class="snippet-big">Stanford Professor Andrei Linde celebrates physics breakthrough<br><span class="snippet-small">Video by StanfordUniversity</span></p><br><br>
+
       <p>Confused, Dr. Linde called out to his wife, asking if she had ordered anything.
 
         “And then I told him that in the beginning we thought that this was a delivery but we did not think that we ordered anything, but I simply forgot that actually I did order it, 30 years ago,” Dr. Linde wrote in an email.
@@ -130,8 +139,7 @@
 
         “The South Pole is the closest you can get to space and still be on the ground,” Dr. Kovac said. He has been there 23 times, he said, wintering over in 1994. “I’ve been hooked ever since,” he said.</p><br><br>
       <img width="600" src="https://static01.nyt.com/images/2014/03/18/science/space/18cosmos-2/18cosmos-2-jumbo.jpg?quality=90&auto=webp" alt="Bicep2 Telescope">
-      <p style="font-size: 14px;">The Bicep2 telescope, in the foreground, was used to detect the faint spiraling gravity patterns — the signature of a universe being wrenched violently apart at its birth.</p><br><br>
-      <p style="font-size: 14px;">CreditSteffen Richter/Associated Press</p><br><br>
+      <p class="snippet-big">The Bicep2 telescope, in the foreground, was used to detect the faint spiraling gravity patterns — the signature of a universe being wrenched violently apart at its birth. <span class="snippet-small">Steffen Richter/Associated Press</span></p><br><br>
       <p>In 2002, he was part of a team that discovered that the microwave radiation was polarized, meaning the light waves had a slight preference to vibrate in one direction rather than another.
 
         This was a step toward the ultimate goal of detecting the gravitational waves from inflation. Such waves, squeezing space in one direction and stretching it in another as they go by, would twist the direction of polarization of the microwaves, theorists said. As a result, maps of the polarization in the sky should have little arrows going in spirals.
@@ -169,10 +177,258 @@
         We might never know what happened before inflation, at the very beginning, because inflation erases everything that came before it. All the chaos and randomness of the primordial moment are swept away, forever out of our view.
 
         “If you trace your cosmic roots,” said Abraham Loeb, a Harvard-Smithsonian astronomer who was not part of the team, “you wind up at inflation.”</p><br><br>
-        <p style="font-size: 14px;">A version of this article appears in print on March 18, 2014, Section A, Page 1 of the New York edition with the headline: Space Ripples Reveal Big Bang’s Smoking Gun. Order Reprints | Today’s Paper | Subscribe</p>
+        <p class="snippet-small">A version of this article appears in print on March 18, 2014, Section A, Page 1 of the New York edition with the headline: Space Ripples Reveal Big Bang’s Smoking Gun. Order Reprints | Today’s Paper | Subscribe</p>
+        <br><br><br>
+        <div class="left">
+          <button class="button btn-bottom" type="button" name="button">READ 615 COMENTS</button>
+          <div class="icons" style="padding-top: 6px;">
+            <a href="https://www.facebook.com/dialog/feed?app_id=9869919170&link=https%3A%2F%2Fwww.nytimes.com%2F2014%2F03%2F18%2Fscience%2Fspace%2Fdetection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html&smid=fb-share&name=Space%20Ripples%20Reveal%20Big%20Bang%E2%80%99s%20Smoking%20Gun&redirect_uri=https%3A%2F%2Fwww.facebook.com%2F"><img class="icons-space" src="http://icons.iconarchive.com/icons/yootheme/social-bookmark/128/social-facebook-button-blue-icon.png" alt="Facebook" width="25"></a>
+            <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fnyti.ms%2F1ivEk8k&text=Space%20Ripples%20Reveal%20Big%20Bang%E2%80%99s%20Smoking%20Gun"><img class="icons-space" src="http://icons.iconarchive.com/icons/emey87/social-button/128/twitter-icon.png" alt="Twitter" width="25"></a>
+            <a href="mailto:contact@nytimes.com"><img class="icons-space" src="http://icons.iconarchive.com/icons/emey87/social-button/128/mail-icon.png" alt="Email" width="25"></a>
+            <a href="https://nyti.ms/1ivEk8k"><img class="icons-space" src="http://icons.iconarchive.com/icons/icons8/windows-8/128/Arrows-Redo-icon.png" alt="Share" width="25"></a>
+          </div>
+        </div>
+        <br><br><br>
+        <div id="div-container">
 
+        <div id="left-bottom">
+          <hr class="hr-bottom">
+          <a class="aClass text-bottom-left" href="https://www.nytimes.com/section/science/space?action=click&module=MoreInSection&pgtype=Article&region=Footer&contentCollection=Space%20&%20Cosmos"><strong>More in Space & Cosmos</strong></a>
+
+           <table style="width: 96%;">
+            <tr>
+              <td>
+                <a href="https://www.nytimes.com/2019/07/17/science/women-astronauts-nasa.html?action=click&module=MoreInSection&pgtype=Article&region=Footer&contentCollection=Space%20&%20Cosmos"><img alt="another image" class="image-bottom-left" src="https://static01.nyt.com/images/2019/07/16/science/00MOON-KOWALESSAY-promo/00MOON-KOWALESSAY-promo-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale" ></a>
+                <a class="a-img-text a-img-text-left" href="https://www.nytimes.com/2019/07/17/science/women-astronauts-nasa.html?action=click&module=MoreInSection&pgtype=Article&region=Footer&contentCollection=Space%20&%20Cosmos">NASA</a>
+                <a class="aClassBottom" href="https://www.nytimes.com/2019/07/17/science/women-astronauts-nasa.html?action=click&module=MoreInSection&pgtype=Article&region=Footer&contentCollection=Space%20&%20Cosmos"><div class="pBottom-left"> To Make It to the Moon, Women Have to Escape Earth’s Gender Bias</div></a>
+                <div class="div-text-bottom-left" >July 17</div>
+              </td>
+              <td>
+                <a href="https://www.nytimes.com/2019/07/16/science/astronauts-nasa-apollo.html?action=click&module=MoreInSection&pgtype=Article&region=Footer&contentCollection=Space%20&%20Cosmos"><img alt="another image" class="image-bottom-center" src="https://static01.nyt.com/images/2019/06/13/science/00MOON-ASTRONAUTS1/00MOON-ASTRONAUTS1-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale" ></a>
+                <a class="a-img-text a-img-text-center " href="https://www.nytimes.com/2019/07/16/science/astronauts-nasa-apollo.html?action=click&module=MoreInSection&pgtype=Article&region=Footer&contentCollection=Space%20&%20Cosmos">NASA</a>
+                <a class="aClassBottom" href="https://www.nytimes.com/2019/07/16/science/astronauts-nasa-apollo.html?action=click&module=MoreInSection&pgtype=Article&region=Footer&contentCollection=Space%20&%20Cosmos"><div class="pBottom-center">As New Space Race Beckons, Astronauts Face Identity Crisis</div></a>
+                <div class="div-text-bottom-left div-text-bottom-center">July 16</div>
+              </td>
+              <td>
+                <a href="https://www.nytimes.com/2019/07/17/science/mauna-kea-protest.html?action=click&module=MoreInSection&pgtype=Article&region=Footer&contentCollection=Space%20&%20Cosmos"><img alt="another image" class="image-bottom-right" src="https://static01.nyt.com/images/2019/07/17/us/17xp-telescope/17xp-telescope-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale" ></a>
+                <a class="a-img-text a-img-text-right" href="https://www.nytimes.com/2019/07/17/science/mauna-kea-protest.html?action=click&module=MoreInSection&pgtype=Article&region=Footer&contentCollection=Space%20&%20Cosmos">Cindy Ellen Russell/Honolulu Star-Advertiser, via Associated<br> Press</a>
+                <a class="aClassBottom" href="https://www.nytimes.com/2019/07/17/science/mauna-kea-protest.html?action=click&module=MoreInSection&pgtype=Article&region=Footer&contentCollection=Space%20&%20Cosmos"><div class="pBottom-right"> Hawaiian Elders Protesting Telescope Construction Are Arrested</div></a>
+                <div class="div-text-bottom-left div-text-bottom-right">July 17</div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://www.nytimes.com/2019/07/16/science/michael-collins-apollo-11.html?action=click&module=MoreInSection&pgtype=Article&region=Footer&contentCollection=Space%20&%20Cosmos"><img alt="another image" class="image-bottom-left" src="https://static01.nyt.com/images/2019/07/08/science/00MOON-COLLINS2/00MOON-COLLINS2-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale" ></a>
+                <a class="a-img-text a-img-text-left" href="https://www.nytimes.com/2019/07/16/science/michael-collins-apollo-11.html?action=click&module=MoreInSection&pgtype=Article&region=Footer&contentCollection=Space%20&%20Cosmos">NASA</a>
+                <a class="aClassBottom" href="https://www.nytimes.com/2019/07/16/science/michael-collins-apollo-11.html?action=click&module=MoreInSection&pgtype=Article&region=Footer&contentCollection=Space%20&%20Cosmos"><div class="pBottom-left"> For Apollo 11 He Wasn’t on the Moon. But His Coffee Was Warm.</div></a>
+                <div class="div-text-bottom-left">July 16</div>
+              </td>
+              <td>
+                <a href="https://www.nytimes.com/2019/07/12/science/nasa-moon-apollo-artemis.html?action=click&module=MoreInSection&pgtype=Article&region=Footer&contentCollection=Space%20&%20Cosmos"><img alt="another image" class="image-bottom-center" src="https://static01.nyt.com/images/2019/07/11/science/00MOONRACE/00MOONRACE-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale" ></a>
+                <a class="a-img-text a-img-text-center" href="https://www.nytimes.com/2019/07/12/science/nasa-moon-apollo-artemis.html?action=click&module=MoreInSection&pgtype=Article&region=Footer&contentCollection=Space%20&%20Cosmos">NASA</a>
+                <a class="aClassBottom" href="https://www.nytimes.com/2019/07/12/science/nasa-moon-apollo-artemis.html?action=click&module=MoreInSection&pgtype=Article&region=Footer&contentCollection=Space%20&%20Cosmos"><div class="pBottom-center">Why Everyone Wants to Go Back to the Moon</div></a>
+                <div class="div-text-bottom-left div-text-bottom-center">July 12</div>
+              </td>
+              <td>
+                <a href="https://www.nytimes.com/2019/07/10/science/hayabusa2-ryugu-asteroid-japan.html?action=click&module=MoreInSection&pgtype=Article&region=Footer&contentCollection=Space%20&%20Cosmos"><img alt="another image" class="image-bottom-right" src="https://static01.nyt.com/images/2019/07/10/science/10ASTEROID1/10ASTEROID1-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale" ></a>
+                <a class="a-img-text a-img-text-right" href="https://www.nytimes.com/2019/07/10/science/hayabusa2-ryugu-asteroid-japan.html?action=click&module=MoreInSection&pgtype=Article&region=Footer&contentCollection=Space%20&%20Cosmos">JAXA, Chiba Institute of Technology & collaborators</a>
+                <a class="aClassBottom" href="https://www.nytimes.com/2019/07/10/science/hayabusa2-ryugu-asteroid-japan.html?action=click&module=MoreInSection&pgtype=Article&region=Footer&contentCollection=Space%20&%20Cosmos"><div class="pBottom-right"> Japan’s Hayabusa2 Spacecraft Lands on Asteroid It Blasted a Hole In</div></a>
+                <div class="div-text-bottom-left div-text-bottom-right">July 10</div>
+              </td>
+            </tr>
+          </table>
+          <hr class="hr-bottom">
+          <a class="aClass text-bottom-left" href="https://www.nytimes.com/section/science/space?action=click&module=MoreInSection&pgtype=Article&region=Footer&contentCollection=Space%20&%20Cosmos"><strong>Editors’ Picks</strong></a>
+          <table style="width: 96%;">
+            <tr>
+              <td>
+                <a href="https://www.nytimes.com/2019/07/12/arts/television/gina-torres-suits-pearson.html?fallback=0&recId=1OCLhse7Qs5hvCoBYDvgfevBj7M&locked=0&geoContinent=NA&geoRegion=LI&recAlloc=story&geoCountry=SV&blockId=home-featured&imp_id=91479023&action=click&module=editorsPicks&pgtype=Article&region=Footer"><img alt="another image" class="image-bottom-left" src="https://static01.nyt.com/images/2019/07/14/arts/14snapshot-1/14snapshot-1-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale" ></a>
+                <a class="a-img-text a-img-text-left" href="https://www.nytimes.com/2019/07/17/science/women-astronauts-nasa.html?action=click&module=MoreInSection&pgtype=Article&region=Footer&contentCollection=Space%20&%20Cosmos">NASA</a>
+                <a class="aClassBottom" href="https://www.nytimes.com/2019/07/17/science/women-astronauts-nasa.html?action=click&module=MoreInSection&pgtype=Article&region=Footer&contentCollection=Space%20&%20Cosmos"><div class="pBottom-left"> To Make It to the Moon, Women Have to Escape Earth’s Gender Bias</div></a>
+                <div class="div-text-bottom-left" >July 12</div>
+              </td>
+              <td>
+                <a href="https://www.nytimes.com/2019/07/13/style/seltzer-sparkling-water-bubble.html?fallback=0&recId=1OCPmMcvga0lW7wOnwdlO5hIFEr&locked=0&geoContinent=NA&geoRegion=LI&recAlloc=story&geoCountry=SV&blockId=home-featured&imp_id=90553895&action=click&module=editorsPicks&pgtype=Article&region=Footer"><img  alt="another image" class="image-bottom-center" src="https://static01.nyt.com/images/2019/07/13/fashion/13SELTZER1-copy-PROMO/13SELTZER1-threeByTwoSmallAt2X-v3.jpg?quality=75&auto=webp&disable=upscale" ></a>
+                <a class="a-img-text a-img-text-center " href="https://www.nytimes.com/2019/07/16/science/astronauts-nasa-apollo.html?action=click&module=MoreInSection&pgtype=Article&region=Footer&contentCollection=Space%20&%20Cosmos">NASA</a>
+                <a class="aClassBottom" href="https://www.nytimes.com/2019/07/16/science/astronauts-nasa-apollo.html?action=click&module=MoreInSection&pgtype=Article&region=Footer&contentCollection=Space%20&%20Cosmos"><div class="pBottom-center">The Seltzer Bubble</div></a>
+                <div class="div-text-bottom-left div-text-bottom-center">July 13</div>
+              </td>
+              <td>
+                <a href="https://www.nytimes.com/2019/07/16/technology/vidcon-social-media-influencers.html?fallback=0&recId=1OCPeSN5Fq2gn52PHRu5LlDcGQ0&locked=0&geoContinent=NA&geoRegion=LI&recAlloc=story&geoCountry=SV&blockId=home-featured&imp_id=542787466&action=click&module=editorsPicks&pgtype=Article&region=Footer"><img alt="another image" class="image-bottom-right" src="https://static01.nyt.com/images/2019/07/16/business/16roose2-promo/16roose2-promo-threeByTwoSmallAt2X-v3.jpg?quality=75&auto=webp&disable=upscale" ></a>
+                <a class="a-img-text a-img-text-right" href="https://www.nytimes.com/2019/07/17/science/mauna-kea-protest.html?action=click&module=MoreInSection&pgtype=Article&region=Footer&contentCollection=Space%20&%20Cosmos">Cindy Ellen Russell/Honolulu Star-Advertiser, via Associated<br> Press</a>
+                <a class="aClassBottom" href="https://www.nytimes.com/2019/07/17/science/mauna-kea-protest.html?action=click&module=MoreInSection&pgtype=Article&region=Footer&contentCollection=Space%20&%20Cosmos"><div class="pBottom-right"> Hawaiian Elders Protesting Telescope Construction Are Arrested</div></a>
+                <div class="div-text-bottom-left div-text-bottom-right">July 16</div>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div id="right-bottom">
+          <hr class="hr-bottom">
+          <div class="text-bottom-left"><strong>Most Popular</strong></div>
+          <hr class="hr-bottom-right">
+          <a class="aClassBottom" href="https://www.nytimes.com/interactive/2019/07/16/world/europe/notre-dame.html?fallback=0&recId=1OC9MdFm2gW00X4hvLCuaWpgAGT&locked=0&geoContinent=SA&geoRegion=SP&recAlloc=top_conversion&geoCountry=BR&blockId=most-popular&imp_id=448135580&action=click&module=trending&pgtype=Article&region=Footer"><div class="my-p-bottom-right">Notre-Dame came far closer to collapsing than people knew. This is how it was saved.</div></a>
+          <hr class="hr-bottom-right">
+          <a class="aClassBottom" href="https://www.nytimes.com/2019/07/18/style/why-are-there-so-many-podcasts.html?fallback=0&recId=1OCUnHZkl6XAb7qoiGASmCZUm7W&locked=0&geoContinent=SA&geoRegion=SP&recAlloc=top_conversion&geoCountry=BR&blockId=most-popular&imp_id=880875751&action=click&module=trending&pgtype=Article&region=Footer"><div class="my-p-bottom-right">Have We Hit Peak Podcast?</div></a>
+          <hr class="hr-bottom-right">
+          <a class="aClassBottom" href="https://www.nytimes.com/2019/07/16/opinion/trump-2020.html?fallback=0&recId=1OCUnHZkl6XAb7qoiGASmCZUm7W&locked=0&geoContinent=SA&geoRegion=SP&recAlloc=top_conversion&geoCountry=BR&blockId=most-popular&imp_id=137856469&action=click&module=trending&pgtype=Article&region=Footer"><div class="my-p-bottom-right">Opinion: ‘Trump’s Going to Get Re-elected, Isn’t He?’</div></a>
+          <hr class="hr-bottom-right">
+          <a class="aClassBottom" href="https://www.nytimes.com/2019/07/18/movies/disney-lion-king.html?fallback=0&recId=1OCUnHZkl6XAb7qoiGASmCZUm7W&locked=0&geoContinent=SA&geoRegion=SP&recAlloc=top_conversion&geoCountry=BR&blockId=most-popular&imp_id=248298047&action=click&module=trending&pgtype=Article&region=Footer"><div class="my-p-bottom-right">What Disney Risked to Make ‘The Lion King’ in 1994</div></a>
+          <hr class="hr-bottom-right">
+          <a class="aClassBottom" href="https://www.nytimes.com/interactive/2019/07/18/multimedia/guantanamo-bay-photos-reporters.html?fallback=0&recId=1OCUnHZkl6XAb7qoiGASmCZUm7W&locked=0&geoContinent=SA&geoRegion=SP&recAlloc=top_conversion&geoCountry=BR&blockId=most-popular&imp_id=446858338&action=click&module=trending&pgtype=Article&region=Footer"><div class="my-p-bottom-right">A Look Inside the Secretive World of Guantánamo Bay</div></a>
+          <hr class="hr-bottom-right">
+          <a class="aClassBottom" href="https://www.nytimes.com/2019/07/16/well/eat/cutting-300-calories-a-day-shows-health-benefits.html?fallback=0&recId=1OCUnHZkl6XAb7qoiGASmCZUm7W&locked=0&geoContinent=SA&geoRegion=SP&recAlloc=top_conversion&geoCountry=BR&blockId=most-popular&imp_id=947288006&action=click&module=trending&pgtype=Article&region=Footer"><div class="my-p-bottom-right">Cutting 300 Calories a Day Shows Health Benefits</div></a>
+          <hr class="hr-bottom-right">
+          <a class="aClassBottom" href="https://www.nytimes.com/2019/07/17/us/politics/trump-jeffrey-epstein-video.html?fallback=0&recId=1OCUnHZkl6XAb7qoiGASmCZUm7W&locked=0&geoContinent=SA&geoRegion=SP&recAlloc=top_conversion&geoCountry=BR&blockId=most-popular&imp_id=736503390&action=click&module=trending&pgtype=Article&region=Footer"><div class="my-p-bottom-right">Trump and Epstein Partied and Commented on Women in 1992 Video</div></a>
+          <hr class="hr-bottom-right">
+          <a class="aClassBottom" href="https://www.nytimes.com/interactive/2019/07/16/dining/black-chefs-restaurants-food.html?fallback=0&recId=1OCUnHZkl6XAb7qoiGASmCZUm7W&locked=0&geoContinent=SA&geoRegion=SP&recAlloc=top_conversion&geoCountry=BR&blockId=most-popular&imp_id=541826697&action=click&module=trending&pgtype=Article&region=Footer"><div class="my-p-bottom-right">16 Black Chefs Changing Food in America</div></a>
+          <hr class="hr-bottom-right">
+          <a class="aClassBottom" href="https://www.nytimes.com/2019/07/17/opinion/trump-racist-tweets-squad.html?fallback=0&recId=1OCUnHZkl6XAb7qoiGASmCZUm7W&locked=0&geoContinent=SA&geoRegion=SP&recAlloc=top_conversion&geoCountry=BR&blockId=most-popular&imp_id=708219112&action=click&module=trending&pgtype=Article&region=Footer"><div class="my-p-bottom-right">Opinion: How Not to Insult Donald Trump</div></a>
+          <hr class="hr-bottom-right">
+          <a class="aClassBottom" href="https://www.nytimes.com/2019/07/17/opinion/google-facebook-sex-websites.html?fallback=0&recId=1OCUnHZkl6XAb7qoiGASmCZUm7W&locked=0&geoContinent=SA&geoRegion=SP&recAlloc=top_conversion&geoCountry=BR&blockId=most-popular&imp_id=876211151&action=click&module=trending&pgtype=Article&region=Footer"><div class="my-p-bottom-right">Opinion: Facebook and Google Trackers Are Showing Up on Porn Sites</div></a>
+        </div>
+      </div>
     </main>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <footer></footer>
+
+    <nav id="nav-footer">
+      <div class="lines"></div>
+      <div style="margin-left:-20px">
+        <a href="https://www.nytimes.com/" ><img src="https://thegoldcenters.com/wp-content/uploads/2017/09/New-York-Times-Logo.png" width="250" alt="NYT" style=" border-radius: 19px;"></a>
+      </div>
+
+      <div class="nav-cont-footer-left">
+        <div class="nav-content-bottom">
+          <div class="nav-content-bottom-title">
+            NEWS
+          </div>
+          <a class="aClass" href="https://www.nytimes.com/">Home Page</a><br>
+          <a class="aClass" href="https://www.nytimes.com/section/world">World</a><br>
+          <a class="aClass" href="https://www.nytimes.com/section/us">U.S.</a><br>
+          <a class="aClass" href="https://www.nytimes.com/section/politics">Politics</a><br>
+          <a class="aClass" href="https://www.nytimes.com/news-event/2020-election">Election 2020</a><br>
+          <a class="aClass" href="https://www.nytimes.com/section/nyregion">New York</a><br>
+          <a class="aClass" href="https://www.nytimes.com/section/business">Business</a><br>
+          <a class="aClass" href="https://www.nytimes.com/section/technology">Tech</a><br>
+          <a class="aClass" href="https://www.nytimes.com/section/science">Science</a><br>
+          <a class="aClass" href="https://www.nytimes.com/section/sports">Sports</a><br>
+          <a class="aClass" href="https://www.nytimes.com/section/obituaries">Obituaries</a><br>
+          <a class="aClass" href="https://www.nytimes.com/section/todayspaper">Today's Paper</a><br>
+          <a class="aClass" href="https://www.nytimes.com/section/corrections">Corrections</a><br>
+        </div>
+        <div class="nav-content-bottom nav-content-bottom-second">
+          <div class="nav-content-bottom-title">
+            OPINION
+          </div>
+          <a class="aClass" href="https://www.nytimes.com/section/opinion">Today's Opinion</a><br>
+          <a class="aClass" href="https://www.nytimes.com/section/opinion/columnists">Op-Ed Columnist</a><br>
+          <a class="aClass" href="https://www.nytimes.com/section/opinion/editorials">Editorials</a><br>
+          <a class="aClass" href="https://www.nytimes.com/section/opinion/contributors">Op-Ed Contributors</a><br>
+          <a class="aClass" href="https://www.nytimes.com/section/opinion/letters">Letters</a><br>
+          <a class="aClass" href="https://www.nytimes.com/section/opinion/sunday">Sunday Review</a><br>
+          <a class="aClass" href="https://www.nytimes.com/video/opinion">Video: Opinion</a><br>
+        </div>
+        <div class="nav-content-bottom nav-content-bottom-third">
+          <div class="nav-content-bottom-title">
+            ARTS
+          </div>
+          <a class="aClass" href="https://www.nytimes.com/section/arts">Today's arts</a><br>
+          <a class="aClass" href="https://www.nytimes.com/section/arts/design">Art & design</a><br>
+          <a class="aClass" href="https://www.nytimes.com/section/books">Books</a><br>
+          <a class="aClass" href="https://www.nytimes.com/section/arts/dance">Dance</a><br>
+          <a class="aClass" href="https://www.nytimes.com/section/movies">Movies</a><br>
+          <a class="aClass" href="https://www.nytimes.com/section/movies">Music</a><br>
+          <a class="aClass" href="https://www.nytimes.com/spotlight/pop-culture">Pop Culture</a><br>
+          <a class="aClass" href="https://www.nytimes.com/section/arts/television">Television</a><br>
+          <a class="aClass" href="https://www.nytimes.com/section/theater">Theater</a><br>
+          <a class="aClass" href="https://www.nytimes.com/video/arts">Video: Arts</a><br>
+        </div>
+        <div class="nav-content-bottom nav-content-bottom-fourth">
+          <div class="nav-content-bottom-title">
+            LIVING
+          </div>
+          <a class="aClass" href="https://www.nytimes.com/section/automobiles">Automobiles</a><br>
+          <a class="aClass" href="https://www.nytimes.com/crosswords">Crossword</a><br>
+          <a class="aClass" href="https://www.nytimes.com/section/education">Education</a><br>
+          <a class="aClass" href="https://www.nytimes.com/section/food">Food</a><br>
+          <a class="aClass" href="https://www.nytimes.com/section/health">Health</a><br>
+          <a class="aClass" href="https://www.nytimes.com/section/jobs">Jobs</a><br>
+          <a class="aClass" href="https://www.nytimes.com/section/magazine">Magazine</a><br>
+          <a class="aClass" href="https://parenting.nytimes.com/">Parenting</a><br>
+          <a class="aClass" href="https://www.nytimes.com/section/realestate">Real Estate</a><br>
+          <a class="aClass" href="https://www.nytimes.com/section/style">Style</a><br>
+          <a class="aClass" href="https://www.nytimes.com/section/t-magazine">T Magazine</a><br>
+          <a class="aClass" href="https://www.nytimes.com/section/travel">Travel</a><br>
+          <a class="aClass" href="https://www.nytimes.com/section/fashion/weddings">Love</a><br>
+        </div>
+        <div class="nav-content-bottom nav-content-bottom-fifth">
+          <div class="nav-content-bottom-title">
+            MORE
+          </div>
+          <a class="aClass" href="https://www.nytimes.com/section/reader-center">Reader Center</a><br>
+          <a class="aClass" href="https://thewirecutter.com/">Wirecutter</a><br>
+          <a class="aClass" href="http://nytconferences.com/">Live Events</a><br>
+          <a class="aClass" href="https://www.nytimes.com/section/learning">The Learning Network</a><br>
+          <a class="aClass" href="http://www.nytimes.com/marketing/tools-and-services">Tools & Services</a><br>
+          <a class="aClass" href="https://www.nytimes.com/events">N.Y.C. Events Guide</a><br>
+          <a class="aClass" href="https://www.nytimes.com/section/multimedia">Multimedia</a><br>
+          <a class="aClass" href="https://www.nytimes.com/section/lens">Photography</a><br>
+          <a class="aClass" href="https://www.nytimes.com/video">Video</a><br>
+          <a class="aClass" href="https://www.nytimes.com/newsletters">Newsletters</a><br>
+          <a class="aClass" href="https://www.nytimes.com/store">NYT Store</a><br>
+          <a class="aClass" href="https://www.nytimes.com/times-journeys">Times Journeys</a><br>
+          <a class="aClass" href="https://myaccount.nytimes.com/membercenter/myaccount.html">Manage My Account</a><br>
+        </div>
+      </div>
+      <div class="nav-cont-footer-right">
+        <div class="nav-cont-footer-right-padding">
+          <div class="nav-content-bottom-title">
+            SUBSCRIBE
+          </div>
+          <div class="nav-menu-bottom-right-top">
+            <a class="aClass" href="https://www.nytimes.com/section/reader-center"><span class="glyphicon glyphicon-modal-window" aria-hidden="true"></span> <strong>Home Delivery</strong></a><br>
+            <a class="aClass" href="https://www.nytimes.com/section/reader-center"><span class="glyphicon glyphicon-ruble" aria-hidden="true"></span> <strong>Digital Subscriptions</strong></a><br>
+            <a class="aClass" href="https://www.nytimes.com/section/reader-center"><span class="glyphicon glyphicon-th-large" aria-hidden="true"></span> <strong>Crossword</strong></a><br>
+            <a class="aClass" href="https://www.nytimes.com/section/reader-center"><span class="glyphicon glyphicon-cutlery" aria-hidden="true"></span> <strong>Cooking</strong></a><br>
+          </div>
+          <div class="nav-menu-bottom-right-bottom">
+              <a class="aClass a-small" href="https://www.nytimes.com/section/reader-center">Email Newsletters</a><br>
+              <a class="aClass a-small" href="https://www.nytimes.com/section/reader-center">Corporate Subscriptions</a><br>
+              <a class="aClass a-small" href="https://www.nytimes.com/section/reader-center">Education Rate</a><br>
+              <hr class="hr-nav-bottom">
+              <a class="aClass a-small" href="https://www.nytimes.com/section/reader-center">Mobile Applications</a><br>
+              <a class="aClass a-small" href="https://www.nytimes.com/section/reader-center">Replica Edition</a><br>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <footer>
+      <hr>
+      <ul class="ul-footer">
+        <li class="li-footer"><a class="aClass aClassFooter" href="https://www.nytimes.com/content/help/rights/copyright/copyright-notice.html">© 2019 The New York Times Company
+        </a></li>
+        <li class="li-footer"><a class="aClass aClassFooter" href="https://myaccount.nytimes.com/membercenter/feedback.html">Contact Us</a></li>
+        <li class="li-footer"><a class="aClass aClassFooter" href="http://www.nytco.com/careers">Work with us</a></li>
+        <li class="li-footer"><a class="aClass aClassFooter" href="http://nytmediakit.com/">Advertise</a></li>
+        <li class="li-footer"><a class="aClass aClassFooter" href="https://www.nytimes.com/content/help/rights/privacy/policy/privacy-policy.html#pp">Your Ad Choices</a></li>
+        <li class="li-footer"><a class="aClass aClassFooter" href="https://www.nytimes.com/privacy">Privacy</a></li>
+        <li class="li-footer"><a class="aClass aClassFooter" href="https://www.nytimes.com/ref/membercenter/help/agree.html">Terms of Service</a></li>
+        <li class="li-footer"><a class="aClass aClassFooter" href="https://www.nytimes.com/content/help/rights/sale/terms-of-sale.html">Terms of Sale</a></li>
+        <li class="li-footer"><a class="aClass aClassFooter" href="http://spiderbites.nytimes.com/">Site Map</a></li>
+        <li class="li-footer"><a class="aClass aClassFooter" href="https://www.nytimes.com/membercenter/sitehelp.html">Help</a></li>
+        <li class="li-footer"><a class="aClass aClassFooter" href="https://www.nytimes.com/subscription/multiproduct/lp8HYKU?campaignId=37WXW">Subscriptions</a></li>
+      </ul>
+    </footer>
+    <script>
+      let subscribe = document.getElementById("subscribe");
+      let login = document.getElementById("login");
+
+      subscribe.onclick = function(){
+        document.location.href = "https://www.nytimes.com/subscription?campaignId=6W74R&&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2F2014%2F03%2F18%2Fscience%2Fspace%2Fdetection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html%3F_r%3D0";
+      }
+
+      login.onclick = function(){
+        document.location.href = "https://myaccount.nytimes.com/auth/login?response_type=cookie&client_id=vi&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2F2014%2F03%2F18%2Fscience%2Fspace%2Fdetection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html%3F_r%3D0";
+      }
+    </script>
   </body>
 </html>
