@@ -511,14 +511,17 @@ aside{
 }
 
 @media (max-width: 1420px) {
+  footer{
+    width: 950px;
+  }
+  aside{
+    display: none;
+  }
   .container{
     width: 950px;
     padding: 0;
   }
   #nav-footer{
-    width: 950px;
-  }
-  footer{
     width: 950px;
   }
   #main-title{
