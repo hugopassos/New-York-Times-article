@@ -22,7 +22,9 @@ iframe{
   border: none;
   width: 600px;
 }
-
+section{
+  position: relative;
+}
 p{
   font-size: 20px;
   width: 600px;
@@ -38,6 +40,21 @@ td{
   width: 33%;
 }
 
+aside{
+  position: absolute;
+  top: 200px;
+  right: 0;
+  width:200px;
+  text-align:left;
+}
+#aside-hr{
+  border-color: #d2d2d6;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+#second-aside{
+  top: 1000px;
+}
 #main-nav{
   width: 100%;
   background-color: white;
@@ -114,7 +131,20 @@ td{
   line-height: 1.8em;
   margin-bottom: 7px;
 }
-
+.aside-title{
+  font-size: 18px;
+  line-height: 1.5em;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+.aside-text{
+  font-size: 14px;
+  color: rgb(102, 102, 102);
+}
+.aside-button{
+  width: 100%;
+}
 .a-author{
   color: black;
   text-decoration: underline;
@@ -556,9 +586,8 @@ td{
 }
 
 .line{
-  width: 65px;
-  color: #d2d2d6;
-  opacity: 0.9;
+  width: 70px;
+  border-color: #d2d2d6;
 }
 
 .hr-nav-bottom{
