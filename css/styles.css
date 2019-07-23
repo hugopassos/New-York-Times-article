@@ -510,6 +510,17 @@ aside{
   display: inline;
 }
 
+.a-nav-footer{
+  float: right;
+  padding-top: 15px;
+  font-size: 12px;
+  color: #6caad9;
+}
+
+.a-nav-footer:hover{
+  color: #6caad9;
+}
+
 @media (max-width: 1420px) {
   footer{
     width: 950px;
