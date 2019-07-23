@@ -607,10 +607,17 @@ td{
   .delete{
     display: none;
   }
+  .nav-cont-footer-left{
+    width: 100%;
+    font-size: 11px;
+  }
+
+  .nav-cont-footer-right{
+    display: none;
+  }
 }
 
 @media (max-width: 735px) {
-
     header p{
       font-size: 13px;
     }
@@ -624,14 +631,7 @@ td{
       font-size: 11px;
     }
 
-    .nav-cont-footer-left{
-      width: 100%;
-      font-size: 11px;
-    }
 
-    .nav-cont-footer-right{
-      width: 0%;
-    }
 }
 
 @media (max-width: 630px) {
