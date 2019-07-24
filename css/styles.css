@@ -60,6 +60,7 @@ aside{
   background-color: white;
   height: 45px;
   position: fixed;
+  left: 0;
   -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.30);
   box-shadow: 0 1px 1px 0 rgba(0,0,0,.30);
   z-index: 10;
@@ -122,7 +123,7 @@ aside{
   width: 25%;
 }
 
-#nav-footer{
+#nav-bottom{
   margin: 0 auto;
   width: 1150px;
   position: relative;
@@ -532,7 +533,7 @@ aside{
     width: 950px;
     padding: 0;
   }
-  #nav-footer{
+  #nav-bottom{
     width: 950px;
   }
   #main-title{
@@ -623,7 +624,7 @@ aside{
     width: 96%;
     margin: 0 auto;
   }
-  #nav-footer{
+  #nav-bottom{
     width: 96%;
   }
   .gallery{
