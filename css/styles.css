@@ -22,7 +22,9 @@ iframe{
   border: none;
   width: 600px;
 }
-
+section{
+  position: relative;
+}
 p{
   font-size: 20px;
   width: 600px;
@@ -38,11 +40,27 @@ td{
   width: 33%;
 }
 
+aside{
+  position: absolute;
+  top: 200px;
+  right: 0;
+  width:200px;
+  text-align:left;
+}
+#aside-hr{
+  border-color: #d2d2d6;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+#second-aside{
+  top: 1000px;
+}
 #main-nav{
   width: 100%;
   background-color: white;
   height: 45px;
   position: fixed;
+  left: 0;
   -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.30);
   box-shadow: 0 1px 1px 0 rgba(0,0,0,.30);
   z-index: 10;
@@ -105,7 +123,7 @@ td{
   width: 25%;
 }
 
-#nav-footer{
+#nav-bottom{
   margin: 0 auto;
   width: 1150px;
   position: relative;
@@ -114,7 +132,20 @@ td{
   line-height: 1.8em;
   margin-bottom: 7px;
 }
-
+.aside-title{
+  font-size: 18px;
+  line-height: 1.5em;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+.aside-text{
+  font-size: 14px;
+  color: rgb(102, 102, 102);
+}
+.aside-button{
+  width: 100%;
+}
 .a-author{
   color: black;
   text-decoration: underline;
@@ -480,15 +511,29 @@ td{
   display: inline;
 }
 
+.a-nav-footer{
+  float: right;
+  padding-top: 15px;
+  font-size: 12px;
+  color: #6caad9;
+}
+
+.a-nav-footer:hover{
+  color: #6caad9;
+}
+
 @media (max-width: 1420px) {
+  footer{
+    width: 950px;
+  }
+  aside{
+    display: none;
+  }
   .container{
     width: 950px;
     padding: 0;
   }
-  #nav-footer{
-    width: 950px;
-  }
-  footer{
+  #nav-bottom{
     width: 950px;
   }
   #main-title{
@@ -556,9 +601,8 @@ td{
 }
 
 .line{
-  width: 65px;
-  color: #d2d2d6;
-  opacity: 0.9;
+  width: 70px;
+  border-color: #d2d2d6;
 }
 
 .hr-nav-bottom{
@@ -580,7 +624,7 @@ td{
     width: 96%;
     margin: 0 auto;
   }
-  #nav-footer{
+  #nav-bottom{
     width: 96%;
   }
   .gallery{
@@ -607,10 +651,17 @@ td{
   .delete{
     display: none;
   }
+  .nav-cont-footer-left{
+    width: 100%;
+    font-size: 11px;
+  }
+
+  .nav-cont-footer-right{
+    display: none;
+  }
 }
 
 @media (max-width: 735px) {
-
     header p{
       font-size: 13px;
     }
@@ -623,7 +674,10 @@ td{
     .snippet-small{
       font-size: 11px;
     }
+
+
 }
+
 @media (max-width: 630px) {
     #main-title{
       width: 310px;
